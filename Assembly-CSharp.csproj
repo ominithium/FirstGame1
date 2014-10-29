@@ -46,11 +46,21 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Move.cs" />
-     <Compile Include="Assets\MoveLeftAndRight.cs" />
-     <Compile Include="Assets\Shoot.cs" />
+     <Compile Include="Assets\Scripts\AnimateTexture.cs" />
+     <Compile Include="Assets\Scripts\DestroyOnInvisible.cs" />
+     <Compile Include="Assets\Scripts\DestroyUnderZValue.cs" />
+     <Compile Include="Assets\Scripts\GibOnTrigger.cs" />
+     <Compile Include="Assets\Scripts\Move.cs" />
+     <Compile Include="Assets\Scripts\MoveLeftAndRight.cs" />
+     <Compile Include="Assets\Scripts\PseudoMoveLeftAndRight.cs" />
+     <Compile Include="Assets\Scripts\RandomlySpawn.cs" />
+     <Compile Include="Assets\Scripts\ScaleOverTime.cs" />
+     <Compile Include="Assets\Scripts\Shoot.cs" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{EDAD31CD-309C-2242-0805-351805321103}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
       <Project>{EBAAADE9-A8A4-DA13-CB75-F3B1FDD6D63E}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>

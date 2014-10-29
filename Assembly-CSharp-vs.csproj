@@ -46,12 +46,24 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Move.cs" />
-     <Compile Include="Assets\MoveLeftAndRight.cs" />
-     <Compile Include="Assets\Shoot.cs" />
+     <Compile Include="Assets\Scripts\AnimateTexture.cs" />
+     <Compile Include="Assets\Scripts\DestroyOnInvisible.cs" />
+     <Compile Include="Assets\Scripts\DestroyUnderZValue.cs" />
+     <Compile Include="Assets\Scripts\GibOnTrigger.cs" />
+     <Compile Include="Assets\Scripts\Move.cs" />
+     <Compile Include="Assets\Scripts\MoveLeftAndRight.cs" />
+     <Compile Include="Assets\Scripts\PseudoMoveLeftAndRight.cs" />
+     <Compile Include="Assets\Scripts\RandomlySpawn.cs" />
+     <Compile Include="Assets\Scripts\ScaleOverTime.cs" />
+     <Compile Include="Assets\Scripts\Shoot.cs" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/Hannat/Documents/GitHub/FirstGame1/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{EDAD31CD-309C-2242-0805-351805321103}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,6 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScaleOverTime.cs">
+    <Files>
+      <File FileName="Assets\Scripts\AnimateTexture.cs" Line="13" Column="65" />
+      <File FileName="Assets\Scripts\PseudoMoveLeftAndRight.cs" Line="13" Column="49" />
+      <File FileName="Assets\Scripts\DestroyOnInvisible.cs" Line="6" Column="21" />
+      <File FileName="Assets\Scripts\DestroyUnderZValue.cs" Line="11" Column="24" />
+      <File FileName="Assets\Scripts\RandomlySpawn.cs" Line="22" Column="64" />
+      <File FileName="Assets\Scripts\ScaleOverTime.cs" Line="8" Column="31" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
